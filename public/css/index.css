@@ -1,0 +1,134 @@
+.section1 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 700px) {
+    .section1{
+        display: grid;
+    }
+}
+
+
+/* ----- img e texto -----  */
+.ladoesquerdo {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 700px) {
+    .ladoesquerdo {
+        height: 50vh;
+    }
+}
+
+.ladoesquerdo h1 {
+    color: #77ffc0;
+}
+
+@media (max-width: 700px) {
+    .ladoesquerdo h1 {
+        font-size: 1.8em;
+    }
+}
+
+.ladoesquerdo img {
+    width: 30vw;
+}
+
+@media (max-width: 700px) {
+    .ladoesquerdo img {
+        width: 60vw;
+    }
+}
+
+/*----- Janela do login -----*/
+
+.ladodireito {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 700px) {
+    .ladodireito {
+        height: 100vh;
+        margin: 0px;
+
+        display: grid;
+    }
+}
+
+
+
+.card-login {
+    width: 55%;
+    height: 28%;
+    padding: 30px 40px;
+    background-color: #2f2841;
+    border-radius: 10px;
+    box-shadow: 7px 7px 0px 0px #140d0d25;
+}
+
+@media (max-width: 700px) {
+    .card-login {
+        width: 70%;
+    }
+}
+
+.card-login h2 {
+    color: #00ff88;
+
+    text-align: center;
+    font-size: bold;
+    font-weight: 800;
+
+}
+
+.card-login label {
+    font-size: 12px;
+    color: white;
+
+    margin: 10px;
+}
+
+.card-login input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    box-sizing: border-box;
+
+    margin: 10px;
+
+    color: white;
+    background-color: #514869;
+}
+
+.card-login button {
+    color: #2f2841;
+    font-weight: bold;
+    background-color: #00ff88;
+    letter-spacing: 5px;
+
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+
+    border: none;
+    border-radius: 15px;
+
+    cursor: pointer;
+
+    margin: 10px;
+}
