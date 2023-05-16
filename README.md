@@ -35,3 +35,8 @@ Contribuições são bem-vindas! Se você deseja contribuir para este projeto, s
 
 ## Licença
 * Este projeto está licenciado sob a MIT License.
+
+## Código do Website:
+![](https://github.com/arthurpereti/login-dark/blob/main/snapcode/html.png)
+![](https://github.com/arthurpereti/login-dark/blob/main/snapcode/stylecss.png)
+![](https://github.com/arthurpereti/login-dark/blob/main/snapcode/indexcss.png)
